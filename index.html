@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Greu de mulțumit</title>
+
+	<!--css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+	<div class="container">
+		<div class="row" id="header">
+			<div class="col-md-12">
+				<h1>Greu de mulțumit</h1>
+				<h3>Ție ce citat ți se potrivește?</h3>
+
+				<hr>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="quote-box">
+					<blockquote class="blockquote" id="quoteDisplay">
+					<p class="mb-0" id="quote">Câteodată greșesc intenționat numele tipilor cu care ies, să nu uite cât de neimportanți sunt pentru mine.</p>
+					<p class="mb-0" id="author">Blogul unei fete greu de multumit</p>
+					</blockquote>
+				</div>
+				<ul class="list-inline">
+					<li><a href="#" class="btn btn-outline-secondary" onclick="newQuote()"><i class="fa fa-quote-right"></i> Get quote</a></li>
+					<li><a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=http://www.greudemultumit.com&p[images][0]=&p[title]=Citate pentru fete greu de multumit[summary]= Tie ce citat ti se potriveste?" target="_blank" onclick="window.open(this.href,'targetWindow','toolbar=no,location=0,status=no,menubar=no,scrollbars=yes,resizable=yes,width=600,height=250'); return false" class="btn btn-outline-secondary facebook-share" data-js="facebook-share"><i class="fa fa-facebook" aria-hidden="true"></i> Share quote</i></a></li>
+				</ul>
+			</div>
+			<div class="col-md-2"></div>
+		</div>
+	</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  		integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  		crossorigin="anonymous">
+</script>
+<script src="main.js"></script>
+</body>
+</html>
