@@ -1,0 +1,19 @@
+ul li{
+	display: inline;
+}
+#header {
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+blockquote.blockquote {
+	padding: 2%;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 16px;
+}
+ul {
+	text-align: center;
+}
